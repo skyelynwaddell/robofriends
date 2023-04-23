@@ -23,10 +23,11 @@ class App extends React.Component {
             return (
             <div>
             <h1 style={{
-                fontSize: 100
+                fontSize: 150
             }}
             >RoboFriends</h1>
             <SearchBox searchChange={this.OnSearchChange}/>
+            <h1><br/></h1>
             <CardList robots={filteredRobots} />
             </div>
             );
