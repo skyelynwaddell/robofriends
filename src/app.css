@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Crazy Cartoon Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Crazy Cartoon Regular'), url('Crazy Cartoon.woff') format('woff');
+    }
+h1{
+    background: #009FCF;
+    background: linear-gradient(to right, #009FCF 0%, #CF4F86 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Crazy Cartoon Regular';
+}
