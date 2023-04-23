@@ -5,7 +5,7 @@ const SearchBox = ({searchfield, searchChange}) => {
         <input
         type='search'
         style={{
-            fontSize:50
+            fontSize:30
         }}
         placeholder={"search robofriends"}
         className='pa3 ba br3 tc bg-lightest-blue'
